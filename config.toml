@@ -1,4 +1,5 @@
-theme = "monokai-custom"
+theme = "monokai-custom" # comment with green color
+                         # and red parenthesis
 
 [editor]
 line-number = "relative"
@@ -8,7 +9,14 @@ rulers = [64,78]
 [editor.statusline]
 left = ["mode", "spinner", "file-name"]
 center = []
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type"
+]
 separator = "│"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
@@ -28,4 +36,4 @@ hidden = false
 enable = true
 max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
-wrap-indicator = ""  # set wrap-indicator to "" to hide it
+wrap-indicator = ""
