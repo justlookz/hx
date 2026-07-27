@@ -35,5 +35,8 @@ hidden = false
 [editor.soft-wrap]
 enable = true
 max-wrap = 25 # increase value to reduce forced mid-word wrapping
-max-indent-retain = 0
+max-indent-retain = 2
 wrap-indicator = ""
+
+[keys.normal]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
