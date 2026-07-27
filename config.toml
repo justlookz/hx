@@ -2,6 +2,7 @@ theme = "monokai-custom" # comment with green color
                          # and red parenthesis
 
 [editor]
+auto-completion = false
 line-number = "relative"
 mouse = true
 rulers = [64,78]
@@ -39,4 +40,4 @@ max-indent-retain = 2
 wrap-indicator = ""
 
 [keys.normal]
-C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw", ":reload-all"]
